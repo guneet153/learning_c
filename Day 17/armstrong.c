@@ -10,8 +10,6 @@ int main()
     scanf("%d", &num);
 
     originalNum = num;
-
-    // store the number of digits of num in n
     for (originalNum = num; originalNum != 0; ++n) {
         originalNum /= 10;
     }
